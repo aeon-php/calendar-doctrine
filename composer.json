@@ -19,7 +19,7 @@
         "psalm/plugin-phpunit": "^0.10.1",
         "friendsofphp/php-cs-fixer": "^2.16",
         "infection/infection": "^0.16.3",
-        "doctrine/dbal": "^2.4"
+        "doctrine/dbal": "^2.6"
     },
     "license": "MIT",
     "autoload": {
