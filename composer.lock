@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc88c1e5788f427ed9b265efb04ba65f",
+    "content-hash": "c1b2de759c91305e0b0a32936295a7a7",
     "packages": [
         {
             "name": "aeon-php/calendar",
-            "version": "0.3.0",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aeon-php/calendar.git",
-                "reference": "fcf6af31d67439ea23bb56c64a29769028fdf133"
+                "reference": "c082ccd33577bb8a67b6c2218d888fc4907785a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aeon-php/calendar/zipball/fcf6af31d67439ea23bb56c64a29769028fdf133",
-                "reference": "fcf6af31d67439ea23bb56c64a29769028fdf133",
+                "url": "https://api.github.com/repos/aeon-php/calendar/zipball/c082ccd33577bb8a67b6c2218d888fc4907785a4",
+                "reference": "c082ccd33577bb8a67b6c2218d888fc4907785a4",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,7 @@
             },
             "require-dev": {
                 "ext-bcmath": "*",
-                "phpunit/phpunit": "^9.1"
+                "phpunit/phpunit": "^9.3"
             },
             "suggest": {
                 "ext-bcmath": "Compare time units with high precision"
@@ -56,7 +56,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-08-01T19:24:48+00:00"
+            "time": "2020-08-15T18:07:07+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -470,10 +470,6 @@
                 "object",
                 "object graph"
             ],
-            "support": {
-                "issues": "https://github.com/myclabs/DeepCopy/issues",
-                "source": "https://github.com/myclabs/DeepCopy/tree/1.x"
-            },
             "funding": [
                 {
                     "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
@@ -684,10 +680,6 @@
                 "reflection",
                 "static analysis"
             ],
-            "support": {
-                "issues": "https://github.com/phpDocumentor/ReflectionCommon/issues",
-                "source": "https://github.com/phpDocumentor/ReflectionCommon/tree/2.x"
-            },
             "time": "2020-06-27T09:03:43+00:00"
         },
         {
@@ -1526,10 +1518,6 @@
                 "unidiff",
                 "unified diff"
             ],
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/diff/issues",
-                "source": "https://github.com/sebastianbergmann/diff/tree/master"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
@@ -2041,10 +2029,6 @@
             ],
             "description": "Collection of value objects that represent the types of the PHP type system",
             "homepage": "https://github.com/sebastianbergmann/type",
-            "support": {
-                "issues": "https://github.com/sebastianbergmann/type/issues",
-                "source": "https://github.com/sebastianbergmann/type/tree/2.2.1"
-            },
             "funding": [
                 {
                     "url": "https://github.com/sebastianbergmann",
