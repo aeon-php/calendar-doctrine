@@ -3,6 +3,7 @@
 /composer.lock export-ignore
 /.github/ export-ignore
 /docs export-ignore
+/tools export-ignore
 /tests export-ignore
 /.phive export-ignore
 /.gitattributes export-ignore
