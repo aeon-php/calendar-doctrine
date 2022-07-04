@@ -24,7 +24,7 @@ final class DayType extends DateImmutableType
     /**
      * {@inheritdoc}
      */
-    public function convertToDatabaseValue($value, AbstractPlatform $platform): string
+    public function convertToDatabaseValue($value, AbstractPlatform $platform): ?string
     {
         if ($value === null) {
             return $value;
@@ -40,7 +40,7 @@ final class DayType extends DateImmutableType
     /**
      * {@inheritdoc}
      */
-    public function convertToPHPValue($value, AbstractPlatform $platform): Day
+    public function convertToPHPValue($value, AbstractPlatform $platform): ?Day
     {
         if ($value === null || $value instanceof Day) {
             return $value;
